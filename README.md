@@ -2,6 +2,13 @@
 
 Projeto de landing page one-page para a startup ficticia **Lumina Tech Solar**, desenvolvido com HTML5 e CSS3.
 
+## Integrantes
+
+- Pedro Ballmann
+- Gustavo Silvestre
+- Lucas Kiem
+- Leonardo Leite
+
 ## Como visualizar o projeto
 
 1. Baixe ou clone este repositorio.
