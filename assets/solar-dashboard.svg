@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+  <title id="title">Painel solar inteligente com monitoramento por aplicativo</title>
+  <desc id="desc">Ilustracao de paineis solares, sol e painel de controle de energia em um smartphone.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ecf9ff"/>
+      <stop offset=".56" stop-color="#f7fbf4"/>
+      <stop offset="1" stop-color="#fff6d8"/>
+    </linearGradient>
+    <linearGradient id="sun" x1=".2" y1=".2" x2=".9" y2=".9">
+      <stop offset="0" stop-color="#ffe680"/>
+      <stop offset=".5" stop-color="#ffb02e"/>
+      <stop offset="1" stop-color="#f58220"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d3d66"/>
+      <stop offset="1" stop-color="#0f6ca6"/>
+    </linearGradient>
+    <linearGradient id="phone" x1=".1" y1="0" x2=".9" y2="1">
+      <stop offset="0" stop-color="#10263d"/>
+      <stop offset="1" stop-color="#0b5f7d"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#0f2740" flood-opacity=".18"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="720" rx="48" fill="url(#sky)"/>
+  <circle cx="170" cy="155" r="78" fill="url(#sun)"/>
+  <g stroke="#ffb02e" stroke-width="10" stroke-linecap="round" opacity=".75">
+    <path d="M170 36v-18"/>
+    <path d="M170 292v-18"/>
+    <path d="M52 155H34"/>
+    <path d="M306 155h-18"/>
+    <path d="M86 70 73 57"/>
+    <path d="M267 251l-13-13"/>
+    <path d="M254 70l13-13"/>
+    <path d="M73 251l13-13"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <path d="M102 438 480 268 815 438 427 623Z" fill="#cfe1ee"/>
+    <path d="M125 421 477 262 790 420 429 590Z" fill="url(#panel)"/>
+    <g stroke="#d9f4ff" stroke-width="7" opacity=".95">
+      <path d="M196 390 500 541"/>
+      <path d="M271 356 575 506"/>
+      <path d="M346 322 651 471"/>
+      <path d="M421 288 727 437"/>
+      <path d="M183 448 533 289"/>
+      <path d="M270 491 622 330"/>
+      <path d="M356 533 710 373"/>
+    </g>
+    <path d="M125 421 477 262 790 420 429 590Z" fill="none" stroke="#0b3554" stroke-width="10" stroke-linejoin="round"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="594" y="130" width="206" height="378" rx="34" fill="url(#phone)"/>
+    <rect x="612" y="166" width="170" height="302" rx="22" fill="#f8feff"/>
+    <rect x="650" y="145" width="92" height="9" rx="5" fill="#d9f4ff" opacity=".7"/>
+    <path d="M644 324c42 25 73 16 98-33" fill="none" stroke="#0e9f6e" stroke-width="13" stroke-linecap="round"/>
+    <path d="M652 320 639 272l48 10" fill="none" stroke="#0e9f6e" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="638" y="200" width="118" height="16" rx="8" fill="#0d4f82"/>
+    <rect x="638" y="232" width="88" height="12" rx="6" fill="#72b7d7"/>
+    <g fill="#ffb02e">
+      <circle cx="654" cy="392" r="14"/>
+      <circle cx="698" cy="378" r="14"/>
+      <circle cx="742" cy="350" r="14"/>
+    </g>
+    <path d="M654 392c22-2 44-15 88-42" fill="none" stroke="#ffb02e" stroke-width="7" stroke-linecap="round"/>
+    <rect x="638" y="420" width="118" height="16" rx="8" fill="#dff5ec"/>
+  </g>
+
+  <g fill="none" stroke="#0d6b8c" stroke-width="11" stroke-linecap="round" opacity=".32">
+    <path d="M110 260c93-67 204-91 334-72"/>
+    <path d="M92 302c142-80 311-95 509-43"/>
+    <path d="M826 553c-129 71-288 92-479 50"/>
+  </g>
+</svg>
