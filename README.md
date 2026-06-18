@@ -8,6 +8,7 @@ Projeto de landing page one-page para a startup ficticia **Lumina Tech Solar**, 
 - Gustavo Silvestre
 - Lucas Kiem
 - Leonardo Leite
+- Julio Lemos
 
 ## Como visualizar o projeto
 
